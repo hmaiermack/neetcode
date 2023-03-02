@@ -40,7 +40,7 @@ function containsDuplicate2(nums: number[]): boolean {
 }
 
 // Solution 3: Set
-// Time Complexity: O(n)
+// Time Complexity: O(1)
 // Space Complexity: O(n)
 /*
     > Create a set from array.

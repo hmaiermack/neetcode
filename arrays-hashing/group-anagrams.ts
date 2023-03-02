@@ -28,6 +28,8 @@ Example 2:
     Space -> O(n) linear space complexity, just an extra object and array
 */
 
+//deal with base cases obviously
+
 function groupAnagrams(strs: string[]): string[][] {
     const hash: { [key: string] : string[] } = {}
     const sortedStrings = strs.map((s) => s.split('').sort().join(''))
